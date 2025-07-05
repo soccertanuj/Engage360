@@ -7,7 +7,10 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
-    "platforms": ["ios", "android"],
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -25,6 +28,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3b3b6b77-2c5d-43cb-a479-c4ca249235db"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/3b3b6b77-2c5d-43cb-a479-c4ca249235db"
     }
   }
 }
